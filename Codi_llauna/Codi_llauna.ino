@@ -69,7 +69,7 @@ void temps() {
   //Serial.println(Azul_Freq);
 
     
-  if (0 <= Rojo_Freq && Rojo_Freq <= 20 && 0 < Verde_Freq && Verde_Freq < 20 && 0 < Azul_Freq && Azul_Freq < 20) {
+  if (0 <= Rojo_Freq && Rojo_Freq < 28 && 0 < Verde_Freq && Verde_Freq < 28 && 0 < Azul_Freq && Azul_Freq < 28) {
     Actual=0;
     if (Actual==0 && Anterior==0){
       Canvi+=1;
